@@ -14,8 +14,8 @@ public class Encryptor {
 		 */
 		 
 		System.out.println("Option (1): Encrypt a message and see it's key and inverse matrix to decrypt yourself or by computer");
-		System.out.println("Option (2): Enter a encrypted message and program decrypts for you with a inverse matrix you enter");
-		System.out.println("Option (3): Enter a encrypted message and program decrypts for you with the original key that was used to encrypt message");
+		System.out.println("Option (2): Enter an encrypted message and program decrypts for you with a inverse matrix you enter");
+		System.out.println("Option (3): Enter an encrypted message and program decrypts for you with the original key that was used to encrypt message");
 		Scanner scanner = new Scanner(System.in);
 		
 		switch (Integer.parseInt(scanner.nextLine())) {
